@@ -1,6 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
+root.title("Python GUI Calculator")
 
 text = tk.Entry(root)
 text.delete(0, "end")
